@@ -1,0 +1,14 @@
+.game-box{
+    border: 5px outset red;
+    background-color: lightblue;
+    text-align: center;
+    display: inline-grid;
+    column-gap: 50px;
+}
+.item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+}

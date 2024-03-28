@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="main.js"></script>
+    </head>
+    <body onLoad="initGame();">       
+        <div class="game-box">
+            <table>
+                <tr>
+                    <td colspan="3"><div id="msg1"></div></td>
+                </tr>
+                <tr>
+                    <td><div onclick="toggleSquare(this);" id="1" class="item"></div></td>
+                    <td><div onclick="toggleSquare(this);" id="2" class="item"></div></td>
+                    <td><div onclick="toggleSquare(this);" id="3" class="item"></div></td>
+                </tr>
+                <tr>
+                    <td><div onclick="toggleSquare(this);" id="4" class="item"></div></td>
+                    <td><div onclick="toggleSquare(this);" id="5" class="item"></div></td>
+                    <td><div onclick="toggleSquare(this);" id="6" class="item"></div></td>
+                </tr>
+            </table> 
+        </div>
+    </body>
+</html> 
